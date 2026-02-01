@@ -20,25 +20,21 @@ The project covers multiple phases of the software engineering lifecycle, includ
 Each phase is documented and organized as part of a complete engineering workflow.
 
 ---
-
 ## Project Structure
 
+```text
 software-engineering-project/
-│
 ├── README.md
-│
 ├── modeling/
-│ ├── BPMN_Diagram.bpmn
-│ └── UML_Class_Diagram.mdj
-│
+│   ├── BPMN_Diagram.bpmn
+│   └── UML_Class_Diagram.mdj
 ├── documentation/
-│ ├── Teil_3_Modeling_Documentation.md
-│ ├── Teil_4a_System_Design.md
-│ ├── Teil_4b_Design_Diagrams.png
-│ └── Teil_5_Final_Documentation.md
-│
-├── testing/
-│ └── Testkonzept.docx
+│   ├── Teil_3_Modeling_Documentation.md
+│   ├── Teil_4a_System_Design.md
+│   ├── Teil_4b_Design_Diagrams.png
+│   └── Teil_5_Final_Documentation.md
+└── testing/
+    └── Testkonzept.docx
 
 
 ---
