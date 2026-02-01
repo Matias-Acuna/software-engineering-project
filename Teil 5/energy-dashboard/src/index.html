@@ -1,0 +1,40 @@
+<!-- Basic HTML structure for the Energy Dashboard app -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Energy Dashboard</title>
+</head>
+<body>
+  <h1>Energy Dashboard</h1>
+
+  <!-- Dropdown to select time filter for data -->
+  <label for="timeFilter">Select time filter:</label>
+  <select id="timeFilter">
+    <option value="all">All data</option>
+    <option value="lastMinute">Last minute</option>
+    <option value="lastHour">Last hour</option>
+  </select>
+
+  <!-- Dropdown to select analysis strategy -->
+  <label for="strategySelect">Select analysis strategy:</label>
+  <select id="strategySelect">
+    <option value="average">Average consumption</option>
+    <option value="maxPeak">Max peak consumption</option>
+    <option value="energySaving">Energy saving potential</option>
+  </select>
+
+  <!-- Canvas element for displaying charts -->
+  <canvas id="energyChart" width="800" height="400"></canvas>
+
+  <!-- Div to show any output messages -->
+  <div id="output"></div>
+
+  <!-- Import Chart.js library -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Import the main JavaScript module to start the app -->
+  <script type="module" src="main.js"></script>
+</body>
+</html>

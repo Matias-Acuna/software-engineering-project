@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",                      // 🟢 Compile to ES6 JavaScript
+    "module": "es6",                      // 🟢 Use ES6 modules
+    "moduleResolution": "node",           // 🟢 Resolve modules like Node.js does
+    "esModuleInterop": true,              // 🟢 Allow compatibility between CommonJS and ES modules
+    "forceConsistentCasingInFileNames": true, // 🟢 Avoid case-sensitivity problems in imports
+    "strict": true,                       // 🟢 Turn on strict checks for better code quality
+    "skipLibCheck": true,                 // 🟢 Skip type checking for libraries to speed up compiling
+    "lib": ["es2016", "dom"],             // 🟢 Support ES2016 features and browser APIs
+    "outDir": "dist",                     // 🟢 Output compiled JS files here
+    "rootDir": "src",                     // 🟢 Source TS files are here
+    "noEmitOnError": true                 // ❗️ Don’t create output files if there are errors
+  },
+  "include": ["src"],                     // Only compile TS files inside src folder
+  "exclude": ["node_modules", "dist"]    // Ignore these folders to avoid loops or errors
+}
