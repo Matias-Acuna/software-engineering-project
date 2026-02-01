@@ -105,4 +105,3 @@ It reflects academic standards while applying concepts commonly used in professi
 ## Notes
 
 This repository focuses on **analysis, modeling, and documentation**, not on executable source code.  
-It demonstrates the ability to design and reason about complex software systems in a structured and professional manner.
